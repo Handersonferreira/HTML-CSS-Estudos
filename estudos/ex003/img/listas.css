@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    
+    border-radius: 50px;
+    width: 500px ;
+    margin: 15px auto; 
+}
+h2 {
+    
+    width: 200px auto;
+    border-radius: 10px;
+}
+section{
+    
+    width: 200px auto;
+    border-radius: 10px;
+}
+body {
+    background-color: rgb(38, 37, 37);
+    color: rgb(216, 207, 196);
+    
+}
+footer {
+    color: rgb(216, 207, 196);
+}

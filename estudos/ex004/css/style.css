@@ -1,0 +1,51 @@
+body {
+    background-image: url('/estudos/ex004/Imagens/Melhor/rosto/IMG_3125.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(105, 103, 103);
+    color: rgb(231, 204, 171);
+    width: auto;
+    padding: 50px;
+}
+h1 {
+    text-align: center;
+    border-radius: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+h2 {
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.galeria img {
+    width: 80%;
+    max-width: 200px;
+    border-radius: 20px;
+    height: auto;
+    box-shadow: 5px 5px 10px rgb(18, 18, 18);
+}
+
+footer {
+    text-align: center;
+    margin-top: 80px;
+    color: bisque;
+}
+.galeria {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+section {
+    margin: 70px;
+}
+main {
+    width: 80%;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(18, 18, 18);
+    border-radius: 20px;
+    background-color: rgba(66, 65, 65, 0.721);
+
+
+}

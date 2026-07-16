@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(192, 220, 241);
+    
+        } 
+        main {
+            background-color: rgb(192, 229, 241);
+            padding: 20px;
+            width: 80%;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+        }
+        div > p {
+            display: none;
+
+        }
+        div:hover > p {
+            display: block;
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            margin-top: 10px;
+        }
+        div:hover {
+            color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Exemplo de hover</h1>
+        <p>Passa o mouse sobre este texto para ver o efeito de hover.</p>
+        <div>
+            Passa o mouse para ver meu canal do youtube
+           <p><a href="https://www.youtube.com/@ODuduznX" target="_blank">Canal do Youtube</a></p>
+        </div>
+        <p>FIM..</p>
+    </main>
+</body>
+</html>
