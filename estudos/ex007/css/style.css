@@ -13,11 +13,9 @@ body {
 
 main {
     background-color: #4b4b4b74;
-    height: auto;
-    width: 90%;
+    width: 100%;
     border-radius: 10px;
-    padding: 20px 20px 200px 20px ;
-    margin: auto 20px auto 20px;
+    margin: auto ;
     box-shadow: 5px 5px 10px rgb(49, 49, 49);
      animation: fadeUp 0.8s ease forwards 0.6s;
 }
