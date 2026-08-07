@@ -1,5 +1,5 @@
 :root {
-    --cor1:rgb(44, 199, 255);
+    --cor1:rgba(236, 232, 232, 0.975));
     --cor2: rgb(0, 165, 202);
     --cor3: rgb(0, 165, 180);
     --cor4: rgb(0, 165, 140);
@@ -8,11 +8,11 @@
 
 body {
     background-color:var(--cor1);
-    background-image: url('/exercicios/ex006/imagem/topography-anime-girl-backiee-HD.jpg');
+    background-image: url('../imagem/topography-anime-girl-backiee-HD.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: rgba(236, 232, 232, 0.975);
+    color:var(--cor1);
   
     animation: fadeUp 0.8s ease forwards 0.6s;
     
