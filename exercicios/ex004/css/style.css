@@ -1,51 +1,36 @@
-body {
-    background-image: url('/estudos/ex004/Imagens/Melhor/rosto/IMG_3125.jpg');
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-color: rgb(105, 103, 103);
-    color: rgb(231, 204, 171);
-    width: auto;
-    padding: 50px;
-}
-h1 {
-    text-align: center;
-    border-radius: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
-}
-h2 {
-    
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.galeria img {
-    width: 80%;
-    max-width: 200px;
-    border-radius: 20px;
-    height: auto;
-    box-shadow: 5px 5px 10px rgb(18, 18, 18);
+* {
+ font-family: 'Courier New', Courier, monospace;
 }
 
-footer {
-    text-align: center;
-    margin-top: 80px;
-    color: bisque;
+:root {
+    --cor1 : #02f7ff;
+    --cor2 : #07d6e1;
+    --cor3 : #04a2aa;
+    --cor4 : #006370;
 }
-.galeria {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    
-}
-section {
-    margin: 70px;
+
+body {
+    background-image: linear-gradient(to top,var(--cor1), var(--cor2), var(--cor3), var(--cor4));
 }
 main {
-    width: 80%;
+    width: 100%;
     margin: auto;
-    box-shadow: 5px 5px 10px rgb(18, 18, 18);
-    border-radius: 20px;
-    background-color: rgba(66, 65, 65, 0.721);
+    background-color:#04a2aac3;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+header > h1 {
 
-
+    text-align: center;
+    color: var(--cor4);
+    font-size: 3rem;
+}
+footer {
+    background-color: var(--cor3);
+    text-align: center;
+    border-radius: 10px;
+    color: var(--cor1);
+    font-size: 0.7rem;
 }
