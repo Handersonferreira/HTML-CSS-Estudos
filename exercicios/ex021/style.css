@@ -1,6 +1,15 @@
-    body {  
-        
-            background-color: rgb(241, 241, 241);
+   
+
+
+
+   * {
+    padding: 0 auto;
+    margin: 0 auto;
+   }
+   
+   body {  
+            min-height: 100vh;
+            background-color: rgb(255, 254, 254);
             font-family: Arial, sans-serif;
             text-align: justify;
         }
@@ -11,41 +20,73 @@
         }
       
         header > h1 {
-            background-color: #fffcfce1;
+            background-color: #ffffffe1;
             border-radius: 15px;
-            box-shadow: 5px 5px 10px rgba(139, 139, 139, 0.594);
+            box-shadow: inset 0px 0px 3px rgb(12, 12, 12);
             width: 60%;
             margin: 20px auto;
             height: 43px;
             padding: 5px;
             text-align: center;
-            color: #454545e1;
+            color: #000000e1;
         }
         nav a {
             color: #797676e4;
             margin: 0 10px;
             text-decoration: none;
         }
-       
-      
-        .sobre {
-            color: #454545e1;
-            box-shadow: 5px 5px 10px rgba(139, 139, 139, 0.594);
-            background-color: #fffcfce1;
-            padding: 10px 10px;
+
+        section {
+            margin: auto;
+            width: 80%;
+        }
+
+
+        section.normal {
+
+            
+            border-radius: 15px;
+            padding: 10px;
+            padding-bottom: 20px;
+        }
+
+        section.img {
+            width: 80%;
+            background-image: url('../ex022/img/wallpaper002.jpg');
+            background-position:  center;
+            background-attachment: fixed;
+            background-size: cover;
+            padding: 20px;
+            box-shadow: inset 2px 2px 13px black;
+            color: #ffffffe1;
+            background-color: #060505e1;
+            
             border-radius: 20px;
+        }
+
+        section.img > h1 {
+
+            text-indent: 30px;
+            padding-bottom: 10px;
+            text-shadow: 2em;
+        }
+
+        section.img > p {
+            background-color: rgba(0, 0, 0, 0.161);
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 1.2em;
         }
         
     
         footer {
-        background-color: #fffcfce1;
+         
         border-radius: 15px;
-        box-shadow: 5px 5px 10px rgba(139, 139, 139, 0.594);
+        padding: 1px;
         text-align: center;
         text-decoration: underline;
-        width: 70%;
-        margin: 53% auto;
-        color: #797676e4;
+        color: #000000e4;
+        margin: 50px;
 
         
         }
